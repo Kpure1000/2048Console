@@ -84,6 +84,8 @@ public:
 	*/
 
 	////使用vector容器搭建的数组，作为消息队列:
+public:
+
 	vector<STATE>state;
 
 };
