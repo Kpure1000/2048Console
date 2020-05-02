@@ -1,7 +1,7 @@
 #include"RenderMap.h"
 int main()
 {
-	RenderMap App;
+	GameController App;
 	App.SetFPS(100);
 
 	Map map;
