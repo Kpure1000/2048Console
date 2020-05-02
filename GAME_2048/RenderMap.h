@@ -57,7 +57,7 @@ public:
 	}
 
 	//获取事件
-	void PushEvent(Event const& ev)
+	void PullEvent(Event const& ev)
 	{
 		for (auto it = ev.state.begin(); it != ev.state.end(); it++)
 		{

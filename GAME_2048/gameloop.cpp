@@ -15,7 +15,7 @@ int main()
 		ev.CheckKeyEvent();
 
 		//主窗口消息处理
-		App.PushEvent(ev);
+		App.PullEvent(ev);
 
 		//矩阵地图更新
 		map.Update(ev);
