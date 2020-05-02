@@ -30,6 +30,18 @@ public:
 		RandomCreate();
 	}
 
+	~Map()
+	{
+		if (Mapper != NULL)
+		{
+			for (size_t i = 0; i < 4; i++)
+			{
+				delete[] Mapper[i];
+			}
+		delete[] Mapper;
+		}
+	}
+
 	////随机生成方块
 	void RandomCreate()
 	{
