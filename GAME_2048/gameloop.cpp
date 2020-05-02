@@ -1,4 +1,4 @@
-#include"RenderMap.h"
+#include"GameController.h"
 int main()
 {
 	GameController App;
